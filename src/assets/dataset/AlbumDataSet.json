@@ -1,0 +1,57 @@
+{
+    "AlbumTitle":{
+        "2":"AniCollective vol.2",
+        "3":"AniCollective vol.3",
+        "4":"AniCollective vol.4",
+        "5":"AniCollective vol.5",
+        "6":"AniCollective vol.6",
+        "7":"AniCollective vol.7",
+        "8":"AniCollective vol.8",
+        "9":"AniCollective vol.9",
+        "10":"AniCollective vol.10"
+    },
+    "TrackList":{
+        "2":["tenkayu - donk bullet" , "Kazmasa - RTCMON" , "whitepilse - ライオン"],
+        "3":[],
+        "4":[],
+        "5":[],
+        "6":[],
+        "7":[],
+        "8":[],
+        "9":[],
+        "10":[]
+    },
+    "JacketList":{
+        "2":"",
+        "3":"",
+        "4":"",
+        "5":"",
+        "6":"",
+        "7":"",
+        "8":"",
+        "9":"",
+        "10":""
+    },
+    "DownloadLink":{
+        "2":"",
+        "3":"",
+        "4":"",
+        "5":"",
+        "6":"",
+        "7":"",
+        "8":"",
+        "9":"",
+        "10":""
+    },
+    "SoundCloudLink":{
+        "2":"",
+        "3":"",
+        "4":"",
+        "5":"",
+        "6":"",
+        "7":"",
+        "8":"",
+        "9":"",
+        "10":""
+    }
+}

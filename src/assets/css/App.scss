@@ -1,0 +1,60 @@
+*{
+margin:0;
+padding:0;
+font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  transform: none !important;
+}
+
+.header{
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow:0px 0px 5px 10px rgb(255, 255, 255) inset;  
+}
+.headerimg {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.et-slide h1{
+  text-align: center;
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: linear-gradient(transparent 50%, #ee80e195 90%);
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.aboutdescription {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.AlbumList {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+footer {
+  background: linear-gradient(  #ffffff00,#ee80e1);
+}
+
+.footerLogo {
+  width: 200px;
+  height: auto;
+}
