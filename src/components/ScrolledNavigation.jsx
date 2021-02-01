@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Fab from '@material-ui/core/Fab';
-import UpIcon from '@material-ui/icons/Dehaze';
+import ExpandLessTwoToneIcon from '@material-ui/icons/ExpandLessTwoTone';;
 import { pink } from '@material-ui/core/colors';
+import { animateScroll as scroll } from 'react-scroll';
 
 const useStyles = makeStyles(()=>({
     scnav: {
@@ -26,17 +27,15 @@ const useStyles = makeStyles(()=>({
 function ScrolledNavigation () {
     const classes = useStyles();
 
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    }
+
     return(
         <>
             <div className={classes.scnav}>
-                <ul className={classes.scnavul}>
-                    <li>About</li>
-                    <li>Events</li>
-                    <li>Releases</li>
-                    <li>Member</li>
-                </ul>
-                <Fab className={classes.fab} aria-label="Up">
-                    <UpIcon />
+                <Fab className={classes.fab} aria-label="Up" onClick={scrollToTop}>
+                    <ExpandLessTwoToneIcon  />
                 </Fab>
             </div>
         </>

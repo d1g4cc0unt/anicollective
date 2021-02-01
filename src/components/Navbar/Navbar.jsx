@@ -10,7 +10,6 @@ function Navbar () {
           <Link className={classes.etHeroTab} href="about" to="about" smooth={true}>About</Link>
           <Link className={classes.etHeroTab} href="events" to="eventpage" smooth={true}>Events</Link>
           <Link className={classes.etHeroTab} href="releases" to="albumpage"smooth={true}>Releases</Link>
-          <Link className={classes.etHeroTab} href="member" to="member" smooth={true}>Member</Link>
         </div>
       </section>
     );
