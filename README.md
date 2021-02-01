@@ -15,3 +15,6 @@ githubテスト
 - ページ遷移後、元のページに戻るとフォントがなぜか変わる（ローカル環境だけ？hostingの環境だとそうはならない）のを修正検討
 - memberの欄を追加
 - gallery追加
+
+## 公開URL
+https://animetic-anthemic.net/
